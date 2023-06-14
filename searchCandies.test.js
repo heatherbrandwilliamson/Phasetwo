@@ -9,7 +9,7 @@ describe('Search Candies', () => {
     expect(Result).toEqual(expectedResult);
   });
 
-/// TEST TWO ////
+/// TEST TWO ////////////////
 
   test('returns "output" for search by prefix string and number', () => {
     const Result2 = SearchCandies('Ma', 10);
@@ -18,7 +18,22 @@ describe('Search Candies', () => {
     expect(Result2).toEqual(expectedResult2);
   });
 
-///// more tests here 
+///// TEST THREE ///////////////
+
+    test('returns "output" for search by prefix string and number', () => {
+    const Result3 = SearchCandies('S', 10);
+    const expectedResult3 = [ 'Skitties', 'Skittles', 'Starburst' ];
+
+    expect(Result3).toEqual(expectedResult3);
+  });
+
+  test('returns "output" for search by prefix string and number', () => {
+    const Result3 = SearchCandies('S', 4);
+    const expectedResult3 = [ 'Skitties', 'Skittles' ];
+
+    expect(Result3).toEqual(expectedResult3);
+  });
+
 });
 
 

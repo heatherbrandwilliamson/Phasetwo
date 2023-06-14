@@ -28,10 +28,3 @@ function SearchCandies(searchString, maxPrice) {
 
 
 module.exports = SearchCandies;
-
-
-const testing = SearchCandies('Ma', 10);
-console.log(testing)
-
-const testing2 = SearchCandies('Ma', 2);
-console.log(testing2)
