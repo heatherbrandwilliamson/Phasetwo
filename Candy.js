@@ -9,7 +9,7 @@ class Candy {
     }
   
     getName() {
-        return this.sweetname
+        return this.sweetname;
     }
     
     // A method.
